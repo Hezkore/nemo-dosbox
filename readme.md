@@ -1,2 +1,2 @@
-A simple [nemo](https://github.com/linuxmint/nemo) action plugin for mounting a folder in [DOSBox](https://www.dosbox.com/).\
+Two [nemo](https://github.com/linuxmint/nemo) action plugins that adds **"Mount in [DOSBox](https://www.dosbox.com/)"** and **"Run in [DOSBox](https://www.dosbox.com/)"** when right clicking.\
 Place in `~/.local/share/nemo/actions`.
