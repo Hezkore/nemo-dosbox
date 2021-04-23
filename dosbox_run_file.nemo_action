@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Run in _DOSBox
+Separator=~
+Comment=Run %f in DOSBox
+Exec=dosbox -c "mount D \"%P\"" -c D: -c cls -c "%f"
+Selection=s
+Extensions=nodirs
+Icon-Name=
+Dependencies=dosbox

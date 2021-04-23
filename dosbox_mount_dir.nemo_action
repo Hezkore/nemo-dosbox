@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Mount in _DOSBox
+Comment=Mount %f as D: in DOSBox
+Exec=dosbox -c "mount D \"%F\"" -c D: -c cls
+Selection=any
+Extensions=dir
+Icon-Name=
+Dependencies=dosbox
