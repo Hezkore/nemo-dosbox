@@ -2,8 +2,8 @@
 Name=Run in _DOSBox
 Separator=~
 Comment=Run %f in DOSBox
-Exec=dosbox -c "mount D \"%P\"" -c D: -c cls -c "%f"
+Exec=dosbox -c "mount A \"%P\"" -c A: -c cls -c "%f"
 Selection=s
-Extensions=nodirs
+Extensions=bat;com;exe;
 Icon-Name=
 Dependencies=dosbox
