@@ -1,7 +1,9 @@
+# Boot from IMG file
+
 [Nemo Action]
 Name=Boot img in _DOSBox
 Comment=Boot img %f in DOSBox
-Exec=dosbox -c "imgmount A %F" -c "echo off" -c cls -c "boot %F"
+Exec=dosbox -c "echo off" -c "imgmount A \"%F\"" -c cls -c "boot \"%F\""
 Selection=s
 Extensions=img;
 Icon-Name=

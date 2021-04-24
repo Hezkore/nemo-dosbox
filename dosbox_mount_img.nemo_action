@@ -1,7 +1,9 @@
+# Mount IMG file
+
 [Nemo Action]
 Name=Mount img in _DOSBox
 Comment=Mount img %f in DOSBox
-Exec=dosbox -c "imgmount A %F" -c A: -c cls
+Exec=dosbox -c "imgmount A \"%F\"" -c A: -c cls
 Selection=s
 Extensions=img;
 Icon-Name=
