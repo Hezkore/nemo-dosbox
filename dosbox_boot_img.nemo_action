@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Boot img in _DOSBox
+Comment=Boot img %f in DOSBox
+Exec=dosbox -c "mount Q \"%P\"" -c "imgmount A Q:\%f" -c cls -c "boot Q:\%f"
+Selection=s
+Extensions=img;
+Icon-Name=
+Dependencies=dosbox

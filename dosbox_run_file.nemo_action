@@ -1,6 +1,5 @@
 [Nemo Action]
 Name=Run in _DOSBox
-Separator=~
 Comment=Run %f in DOSBox
 Exec=dosbox -c "mount A \"%P\"" -c A: -c cls -c "%f"
 Selection=s
