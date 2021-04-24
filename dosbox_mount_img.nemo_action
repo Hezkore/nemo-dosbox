@@ -1,7 +1,7 @@
 [Nemo Action]
 Name=Mount img in _DOSBox
 Comment=Mount img %f in DOSBox
-Exec=dosbox -c "mount Q \"%P\"" -c "imgmount A Q:\%f" -c "mount -u Q" -c A: -c cls
+Exec=dosbox -c "imgmount A %F" -c A: -c cls
 Selection=s
 Extensions=img;
 Icon-Name=
