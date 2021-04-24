@@ -4,7 +4,8 @@
 Name=Boot img in _DOSBox
 Comment=Boot img %f in DOSBox
 Exec=dosbox -c "echo off" -c "imgmount A \"%F\"" -c cls -c "boot \"%F\""
-Selection=s
+Selection=notnone
 Extensions=img;
 Icon-Name=
 Dependencies=dosbox
+Separator=\" \"
